@@ -48,4 +48,45 @@ button{
     line-height: 20px;
     text-align: center;
 }
+.img-s1{
+    display: flex;
+    padding: 50px;
+    margin: 50px 100px 0px 120px;
+    gap: 20px;
+    
+}
+.img1{
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgb(255, 232, 235);
+    width: 250px;
+    height: 328px; 
+
+}
+.img2{
+   background-color:lightblue;
+   border-radius: 300px 300px 0px 0px;
+   width: 250px;
+   height: 328px; 
+
+}
+.img3{
+    border-radius: 300px 300px 0px 0px;
+    background-color: lightyellow;
+    width: 250px;
+    height: 328px;
+}
+.Support-pic{
+    display: flex;
+    background-color: rgb(241, 252, 255);
+    margin: 0px 125px 20px 130px ;
+    border-radius: 8px;
+}
+.spt-t{
+    text-align: center;
+}
+.spt{
+    
+
+}
+
 /* end of main section 1 */
