@@ -20,6 +20,7 @@ display: flex;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    text-align: center;
 }
 button{
     padding: 12px 15px;
@@ -78,7 +79,7 @@ button{
 .Support-pic{
     display: flex;
     background-color: rgb(241, 252, 255);
-    margin: 0px 125px 20px 130px ;
+    margin: 0px 125px 100px 130px ;
     border-radius: 8px;
 }
 .spt-t{
@@ -86,7 +87,16 @@ button{
 }
 .spt{
     
+    text-align: center;
+
 
 }
+.spt-img{
+    padding-right: 100px ;
+    padding-left: 100px;
+    width: 40px;
+    height: 40px;
+}
+
 
 /* end of main section 1 */
