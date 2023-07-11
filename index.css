@@ -227,7 +227,10 @@ font-weight: 900;
   height: 449px;
     color: aliceblue;
     text-align: center;
-    
+
+}
+.footer-div{
+    padding: 100px;
 }
 .footer-span{
     color: brown;
