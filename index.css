@@ -133,7 +133,10 @@ button:hover{
     background-color: rgb(5, 93, 156);
     display: flex;
     flex-direction:row;
-    justify-content: space-around
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
 } 
 .hot-items{
    
