@@ -4,16 +4,30 @@
 .header-main{
 background-color: rgb(255, 204, 212);
 margin: 0px;
-padding: 120px;
-display: flex;
+padding: 50px;
+display:flex;
+align-items: center;
+height: 800px;;
+justify-content: initial;
+
+
 
 
 
 }
+.headar-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.here{
+    color: brown;
+}
 .header-h2{
     color:black;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 900;
+    text-align: center;
 }
 .headar-p{
     color: rgb(38, 35, 35);
@@ -24,15 +38,29 @@ display: flex;
 }
 button{
     padding: 12px 15px;
-    color: pink;
-    background-color: lightgoldenrodyellow;
+    color: rgb(243, 245, 249);
+    background-color: rgb(9, 177, 244);
+    
+
+    border: 0px;
+}
+button:hover{
+    letter-spacing: 1px;
 }
 .header-img{
-   width: 400px;
-   height: 500px;
-   size-adjust: ;
+   max-width: 300px;
+   position: bottom left;
+   max-width: 100%;
+   object-fit: cover;
+   display: initial;
    
    
+   
+   
+   
+}
+.headar-text{
+    padding-bottom: 150px;
 }
 /* /* main * */
 .header-h3{
@@ -100,6 +128,34 @@ button{
 
 
 /* end of main section 1 */
+/* hot deal */
+.hot{
+    background-color: rgb(5, 93, 156);
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around
+} 
+.hot-items{
+   
+}
+.hot-span{
+    color: red;
+}
+.hot-span1{
+    color: rgb(210, 210, 251);
+}
+.hot-p{
+    color: rgb(241, 133, 0);
+}
+.hot-btn{
+    padding: 14px 20px;
+    margin-top: 5px;
+    bottom: 5px;
+    color: rgb(117, 4, 255);
+    background-color:rgb(255, 195, 195);
+    border-radius: 2px;
+}
+/* end hot deal */
 /* main section 2 */
 .Instagram-sec{
     display: flex;
@@ -131,7 +187,7 @@ font-weight: 900;
 .footer-p{
     text-align: center;
     margin-top: 0px;
-    color: rgb(79, 70, 70);
+    color: rgb(43, 38, 38);
     font-size: 18px;
 }
 .footer-btn{
@@ -143,21 +199,43 @@ font-weight: 900;
 .footer-input-email{
 
     width: 300px;
-    height: 34px;
-    background: transparent ;
+    height: 36px;
+    background:transparent;
     border: 1px solid blue;
     
 }
 .footer-input-btn{
-    margin-top: 5px;
-    padding-bottom: 5px;
+    padding
+    margin-top: 5px;-bottom: 5px;
     height: 38px;
     font-size: 20px;
     color: rgb(255, 4, 4);
-    background: transparent;
-    background-color: transparent;
+    background: transparent ;
+    background-color:transparent;
     border: 1px solid rgb(1, 4, 5);
 
 }
+.footer-input-btn:hover{
+    letter-spacing: 3px;
+    background:lightblue;
+}
 
 /* main section end */
+.footer-l{
+    background-color: black;
+   
+  height: 449px;
+    color: aliceblue;
+    text-align: center;
+    
+}
+.footer-span{
+    color: brown;
+}
+.footer-span2{
+    color: blue;
+}
+.footer-span3{
+    color:rgb(255, 255, 169)
+}
+    
