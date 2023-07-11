@@ -206,6 +206,9 @@ font-weight: 900;
     border: 1px solid blue;
     
 }
+.bns-name{
+    color: brown;
+}
 .footer-input-btn{
     padding
     margin-top: 5px;-bottom: 5px;
@@ -238,10 +241,18 @@ font-weight: 900;
 }
 
 .bonus-content{
-    box-shadow:4px 8px 12px rgba(75, 23, 23, 0.2);
+    box-shadow:4px  8px 12px rgba(75, 23, 23, 0.177);
      margin: 150px 0px 150px 0px;
     }
-   
+    .btn-ti{
+        color: blue;
+    }
+    .bns{
+        color: red;
+    }
+   .btn1{
+    color: rgb(7, 150, 182);
+   }
 .bns-img1{
     width: 250px;
     height: 160px;
